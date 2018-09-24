@@ -28,7 +28,12 @@
   },
   "keywords": [
     "typescript",
-    "library"
+    "uid",
+    "uuid",
+    "token",
+    "generator",
+    "random",
+    "unique"
   ],
   "author": "Paras Mendiratta <code.snooker@gmail.com>",
   "license": "MIT",
