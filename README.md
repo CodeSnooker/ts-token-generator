@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/CodeSnooker/ts-library.svg?branch=master)](https://travis-ci.org/CodeSnooker/ts-library)
-[![Coverage Status](https://coveralls.io/repos/github/CodeSnooker/ts-library/badge.svg?branch=master)](https://coveralls.io/github/CodeSnooker/ts-library?branch=master)
+[![Build Status](https://travis-ci.org/CodeSnooker/ts-token-generator.svg?branch=master)](https://travis-ci.org/CodeSnooker/ts-token-generator)
+[![Coverage Status][![Coverage Status](https://coveralls.io/repos/github/CodeSnooker/ts-token-generator/badge.svg?branch=master)](https://coveralls.io/github/CodeSnooker/ts-token-generator?branch=master)
 
 ts-library
 ---
