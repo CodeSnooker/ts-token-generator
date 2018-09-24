@@ -1,5 +1,4 @@
 import * as UUID from 'uuid';
-import { v4, v4Buffer, V4Options, v4String } from 'uuid/interfaces';
 
 export enum TokenBase {
     BASE16 = '0123456789abcdef',
@@ -14,8 +13,6 @@ export interface ITokenDto {
     readonly bitSize: number;
     readonly baseEncoding: TokenBase | string;
 }
-
-export type UUIDFunc = (options: V4Options, buffer: v4String & v4Buffer, offset: number) => any;
 
 export class TokenGenerator {
 
@@ -49,12 +46,12 @@ export class TokenGenerator {
 
     }
 
-    public generate(v4Func: v4 = UUID.v4): string {
+    public generate(): string {
         const buffer = Buffer.allocUnsafe(this._bytes);
         let i;
 
         for (i = 0; i < this._bytes; i += 16) {
-            v4Func(null, buffer, i);
+            UUID.v4(null, buffer, i);
         }
 
         if (this._baseEncoding === TokenBase.BASE16) {
