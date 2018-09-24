@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/CodeSnooker/ts-token-generator.svg?branch=master)](https://travis-ci.org/CodeSnooker/ts-token-generator)
-[![Coverage Status][![Coverage Status](https://coveralls.io/repos/github/CodeSnooker/ts-token-generator/badge.svg?branch=master)](https://coveralls.io/github/CodeSnooker/ts-token-generator?branch=master)
+
+[![Coverage Status](https://coveralls.io/repos/github/CodeSnooker/ts-token-generator/badge.svg?branch=master)](https://coveralls.io/github/CodeSnooker/ts-token-generator?branch=master)
 
 ts-token-generator
 ---
