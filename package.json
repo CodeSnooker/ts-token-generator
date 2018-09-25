@@ -2,7 +2,7 @@
   "name": "ts-token-generator",
   "version": "1.0.3",
   "description": "Typescript Library Project",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/"
