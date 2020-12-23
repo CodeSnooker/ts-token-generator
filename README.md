@@ -20,7 +20,7 @@ Usage
 
 ```typescript
 
-import { TokenGenerator, TokenBase } from 'ts-token-generaor';
+import { TokenGenerator, TokenBase } from 'ts-token-generator';
  
 const tokgen = new TokenGenerator(); // Default is a 128-bit token encoded in base58
 tokgen.generate();
